@@ -1,0 +1,45 @@
+{
+  "name": "marquez-truck-repairs",
+  "version": "1.0.0",
+  "description": "A modern, responsive website for Marquez Truck Repairs - a heavy-duty truck repair service with 15+ years of experience.",
+  "main": "index.html",
+  "scripts": {
+    "start": "open src/index.html",
+    "dev": "open src/index.html",
+    "build": "node build.js",
+    "serve": "open dist/index.html",
+    "clean": "rm -rf dist",
+    "preview": "npm run build && npm run serve"
+  },
+  "keywords": [
+    "truck-repairs",
+    "heavy-duty",
+    "automotive",
+    "repair-services",
+    "responsive-website",
+    "vanilla-javascript",
+    "css3",
+    "html5"
+  ],
+  "author": "Marquez Truck Repairs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/marquez-truck-repairs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/marquez-truck-repairs/issues"
+  },
+  "homepage": "https://marquezrepairs.com",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ]
+} 
